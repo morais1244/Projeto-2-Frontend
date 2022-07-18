@@ -1,0 +1,53 @@
+html{
+    background: rgb(2,0,36);
+    background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgb(21, 33, 45) 86%);
+
+    text-align: center;
+}
+h1,  .answers{
+    color: white
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: white;
+    padding: 10px 5px 5px 5px;
+    margin: 5px;
+    border-radius: 8px;
+
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:6;
+
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
